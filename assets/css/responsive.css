@@ -1,0 +1,81 @@
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+/* PC low resolution */ 
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .content-section {
+        padding: 150px 90px 50px;
+    }
+    #header {
+        padding: 0 80px;
+    }
+    .about__img {
+        height: 330px;
+        width: 330px;
+    }
+
+}
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-tablet-mobile {
+        display: block;
+    }
+    #about {
+        flex-direction: column-reverse;
+    }
+}
+/* Tablet */ 
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .content-section {
+        padding: 150px 80px 50px;
+    }
+    #header {
+        padding: 0 70px;
+    }
+    
+}
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .content-section {
+        padding: 100px 16px 50px;
+    }
+    /* Header */ 
+    #header {
+        padding: 0 10px;
+    }
+    /* About */ 
+    .about__img {
+        width: 300px;
+        height: 300px;
+    }
+    .about--social {
+        text-align: center;
+    }
+    .about--social__link {
+        margin-right: unset;
+        padding: 10px;
+        margin: 0 5px;
+    }
+
+    /* Skills */ 
+    .skills__img {
+        margin-top: 35px;
+    }
+    /* Literacy */
+    .literacy--list {
+        display: block;
+        padding: 75px 0;
+    }
+    .literacy--item:nth-child(2) {
+        top: 45px;
+    }
+
+}

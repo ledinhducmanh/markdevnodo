@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkDevNodo</title>
+    <link rel="shortcut icon" href="./assets/img/lemanh.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Animation Scrolling -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="\"><span>MarkDevNodo</span><i></i></a>
+        </div>
+        <div class="navbar hide-on-mobile">
+            <a class="navbar__link" href="#about">About Me</a>
+            <a class="navbar__link" href="#skills">Skills</a>
+            <a class="navbar__link" href="#literacy">Literacy</a>
+            <a class="navbar__link" href="#projectes">Projectes</a>
+        </div>
+        <label class="menu-mobile__btn hide-on-pc hide-on-tablet" for="menu-mobile">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <input class="menu-input" type="checkbox" hidden id="menu-mobile">
+        <label for="menu-mobile" class="overlay"></label>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#literacy">Literacy</a></li>
+                <li><a href="#projectes">Projectes</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main id="main">
+        <div id="about" class="content-section">
+            <div class="about__content">
+                <h1 class="about__heading">Hi, I'm MarkDevNodo</h1>
+                <div class="about__text">Hello, my name is Manh, and I'm a 16-year-old high school student who loves web programming and installing Windows operating systems. I'm currently a student at the <a class="about__f8" href="https://fullstack.edu.vn/">F8</a> community, where I'm learning more about web development and other related fields</div>
+                <div style="padding: 30px 0">
+                    <a href="#skills" class="about__link">Scrolling Down <i class="fa-solid fa-arrow-down"></i> </a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="800" class="about--social">
+                    <a href="https://www.facebook.com/markdevnodo" class="about--social__link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/markdevnodo66/" class="about--social__link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/cMnh27169110" class="about--social__link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://discord.gg/ey92US8C4R" class="about--social__link">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                    <a href="https://github.com/ledinhducmanh" class="about--social__link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="about__img"></div>
+        </div>
+        <div id="skills" class="content-section">
+            <h1 class="section__heading">Skills</h1>
+            <div class="grid wide">
+                <div class="skills__content row">
+                    <div class="col l-6 m-6 c-12">
+                        <h2>My skills</h2>
+                        <div data-aos="fade-up" class="skills__data">
+                            <div class="skills__names">
+                                <i style="color: var(--orange-color);" class="skills__icon skills__icon--html fa-brands fa-html5"></i>
+                                <div class="skills__name"></i>HTML5</div>
+                                <div class="skills__percent">80%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div style="background-color: var(--orange-color); --percent-data: 80%" class="skills__bar--item"></div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="skills__data">
+                            <div class="skills__names">
+                                <i style="color: var(--blue-color);" class="skills__icon fa-brands fa-css3"></i>
+                                <div class="skills__name"></i>CSS3</div>
+                                <div class="skills__percent">70%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div style="background-color: var(--blue-color); --percent-data: 70%" class="skills__bar--item"></div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="skills__data">
+                            <div class="skills__names">
+                                <i style="color: var(--yellow-color);" class="skills__icon fa-brands fa-js"></i>
+                                <div class="skills__name"></i>JavaScript</div>
+                                <div class="skills__percent">20%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div style="background-color: var(--yellow-color); --percent-data: 20%" class="skills__bar--item"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 c-12">
+                        <img src="./assets/img/codeImg.jpg" class="skills__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="literacy" class="content-section">
+            <h1 class="section__heading">Literacy</h1>
+            <div class="literacy--list">
+                <div data-aos="fade-up" class="literacy--item">
+                    <p>Xuan Truong Middle School</p>
+                    <i class="literacy__icon fa-solid fa-calendar-days"></i>
+                    <span>2018 - 2022</span>
+                </div>
+                <div data-aos="fade-up" class="literacy--item">
+                    <p>Linh Trung High School</p>
+                    <i class="literacy__icon fa-solid fa-calendar-days"></i>
+                    <span>2022 - ~~</span>
+                </div>
+            </div>
+        </div>
+        <div id="projectes" class="content-section">
+            <h1 class="section__heading">Projectes</h1>
+            <div class="grid wide">
+                <div class="projectes--list row">
+                    <div data-aos="fade-up" class="projectes--item col l-6 m-6 c-12">
+                        <a href="https://ledinhducmanh.github.io/theband/" class="projectes__link">
+                            <div class="projectes__img--wrap">
+                                <img class="projectes__img" src="./assets/img/theband.PNG" alt="">
+                            </div>
+                            <p class="projectes__name" >The Band W3School website only using HTML, CSS</p>
+                        </a>
+                    </div>
+                    <div data-aos="fade-up" class="projectes--item col l-6 m-6 c-12">
+                        <a href="https://ledinhducmanh.github.io/shoppe/" class="projectes__link">
+                            <div class="projectes__img--wrap">
+                                <img class="projectes__img" src="./assets/img/shoppe.PNG" alt="">
+                            </div>
+                            <p class="projectes__name">Shoppe website only using HTML, CSS</p>
+                        </a>
+                    </div>
+                    <div data-aos="fade-up" class="projecte-s-item col l-6 m-6 c-12">
+                        <a href="https://ledinhducmanh.github.io/spacex/" class="projectes__link">
+                            <div class="projectes__img--wrap">
+                                <img class="projectes__img" src="./assets/img/spacex.png" alt="">
+                            </div>
+                            <p class="projectes__name">SpaceX website only using HTML, CSS </p>
+                        </a>
+                    </div>
+                    <div data-aos="fade-up" class="projecte-s-item col l-6 m-6 c-12">
+                        <a href="https://ledinhducmanh.github.io/microsoft/" class="projectes__link">
+                            <div class="projectes__img--wrap">
+                                <img class="projectes__img" src="./assets/img/microsoft.png" alt="">
+                            </div>
+                            <p class="projectes__name">Microsoft website only using HTML, CSS </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+        } // End if
+    });
+    });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

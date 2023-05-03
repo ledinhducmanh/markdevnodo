@@ -1,0 +1,25 @@
+:root {
+    --blue-color: #1497E2;
+    --white-color: #fff;
+    --text-color: #333;
+    --green-color: #2ecc71;
+    --red-color: #e74c3c;
+    --yellow-color: #f6dd04;
+    --orange-color: #ff7d00;
+    --header-hieght: 80px
+}
+.content-section {
+    padding: 150px 180px 50px;
+}
+.section__heading {
+    text-align: center;
+    color: var(--blue-color);
+    border-bottom: 2px solid #1077b3;
+}
+.overlay {
+    position: fixed;
+    z-index: 10;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
